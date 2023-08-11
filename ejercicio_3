@@ -1,0 +1,12 @@
+x = int(input("ingrese el numero:"))
+k = 2
+primo = True
+while primo and k < x:
+    if x % 2 == 0:
+        primo = False
+    k += 1
+if primo:
+    resultado = "es primo"
+else:
+    resultado = "no es primo"
+print("el numero",x, resultado)
