@@ -1,0 +1,10 @@
+"algoritmo suma de numeros pares"
+n = int(input("ingrese el valor de n:"))
+m = int (input("ingrese el valor de m:"))
+i = n
+suma_pares = 0
+while i<= m:
+    if i % 2 == 0:
+        suma_pares+= i
+    i += 1
+print("la suma de los numeros pares entre",n, "y",m, "es:", suma_pares)
